@@ -1,13 +1,15 @@
 <?php
 
-class BankAccount
+class Customer
 {
-    public $accountNumber;
-    public $balance;
+	public $name;
+
+	public function getName()
+	{
+		return $this->name;
+	}
 }
 
-$account = new BankAccount();
-
-$account->accountNumber = 1;
-echo($account->accountNumber);
-$account->balance = 100;
+$customer = new Customer();
+$customer->name = 'Bob';
+echo $customer->getName(); // Bob
