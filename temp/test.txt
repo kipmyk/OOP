@@ -1,0 +1,6 @@
+How it works.
+
+First, define the File class with the constructor that accepts two arguments: $filename and $mode. By default, the File class opens the file for reading.
+Second, open the file and assign the file handle to the $handle property in the constructor.
+Third, close the file handle in the destructor.
+Fourth, return the file contents from the read() method.
