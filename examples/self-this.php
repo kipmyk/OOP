@@ -2,7 +2,7 @@
 
 /**
  * Use $this to refer to the current object. Use self to refer to the current class. In other words, use  $this->member for non-static members, use self::$member for static members.
- * 
+ * example from @lik https://stackoverflow.com/questions/151969/when-should-i-use-self-over-this
  *  */ 
 
 class Person {
