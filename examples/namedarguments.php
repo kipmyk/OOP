@@ -7,7 +7,7 @@ class Product
     public $price = 100;
 
     // methods
-    public function priceAsCurrency($divisor = 20, $currencySymbol = "$")
+    public function priceAsCurrency($divisor = 100, $currencySymbol = "$")
     {
         $priceAsCurrency = $this->price/$divisor;
         return $currencySymbol . $priceAsCurrency;
@@ -16,4 +16,4 @@ class Product
 
 $product = new Product();
 
-print $product->priceAsCurrency() . PHP_EOL;
+print $product->priceAsCurrency(currencySymbol: 'ksh') . PHP_EOL;
