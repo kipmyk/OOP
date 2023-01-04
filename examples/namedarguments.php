@@ -7,7 +7,7 @@ class Product
     public $price = 100;
 
     // methods
-    public function priceAsCurrency($divisor = 100, $currencySymbol = "$")
+    public function priceAsCurrency($divisor = 100,$currencySymbol = "$")
     {
         $priceAsCurrency = $this->price/$divisor;
         return $currencySymbol . $priceAsCurrency;
