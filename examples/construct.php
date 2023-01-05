@@ -18,4 +18,5 @@ class Product
 
 $product = new Product('Soap', 100);
 
-print $product->priceAsCurrency(currencySymbol: 'ksh') . PHP_EOL;
+print $product->name . PHP_EOL;
+print $product->priceAsCurrency(currencySymbol: 'ksh') . $product->price . PHP_EOL;
