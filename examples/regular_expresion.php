@@ -66,3 +66,11 @@ $replacement = '<b>$0</b>';
 $text = 'Words begining with car: cart, carrot, cartoon. Words ending with car: scar, oscar, supercar.';
 echo preg_replace($pattern, $replacement, $text);
 ?>
+<br>
+Function 	What it Does
+preg_match() 	Perform a regular expression match.
+preg_match_all() 	Perform a global regular expression match.
+preg_replace() 	Perform a regular expression search and replace.
+preg_grep() 	Returns the elements of the input array that matched the pattern.
+preg_split() 	Splits up a string into substrings using a regular expression.
+preg_quote() 	Quote regular expression characters found within a string.
