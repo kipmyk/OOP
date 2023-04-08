@@ -1,4 +1,7 @@
 <?php
 
-require_once 'models/Contact.php';
-$contact = new Contact('john.doe@example.com');
+require 'functions.php';
+
+$contact = new Contact('e@kipmyk.co.ke');
+
+echo Email::send($contact);
