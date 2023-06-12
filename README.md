@@ -1,5 +1,7 @@
 # Personal Testing of Object-oriented programming - OOP
 
+This repository will be strictly for uploading all my small personal projects associated with OOP-PHP and will be uploading all the small exercises here. The main projects will be uploaded separately into their own repositories.
+
 ## Important of Object-oriented programming over procedural programming:
 
 1. OOP is faster and easier to execute
