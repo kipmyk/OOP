@@ -13,14 +13,14 @@ This repository will be strictly for uploading all my small personal projects as
 
 A class is a template for objects, and an object is an instance of class.
 
-A class is defined by using the `class` keyword, followed by the name of the class and a pair of curly braces ```({})```.
+A class is defined by using the `class` keyword, followed by the name of the class and a pair of curly braces `({})`.
 
-**Note: In a class, variables are called properties and functions are called methods!** 
+**Note: In a class, variables are called properties and functions are called methods!**
 
 ## PHP Access Modifiers
 
-PHP has three access modifiers: `public`, `private`, and `protected`. 
+PHP has three access modifiers: `public`, `private`, and `protected`.
 
-1. The public access modifier allows you to access properties and methods from both inside and outside of the class. This is default
+1. The public access modifier allows you to access properties and methods from both inside and outside of the clwpforms_field_select_choicesjs_configass. This is default
 2. protected - the property or method can be accessed within the class and by classes derived from that class.
 3. The private access modifier prevents you from accessing properties and methods from the outside of the class.
